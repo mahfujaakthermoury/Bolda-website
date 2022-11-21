@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+    font-family: 'Manrope', sans-serif;
+}
+div{
+    box-sizing: border-box;
+}
+.row{
+    overflow: hidden;
+}
+img{
+    max-width: 100%;
+}
+header{
+    background-image: url(/img/home-page/home\ bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+nav .btn {
+	padding: 2px 30px;
+	border-radius: 25px;
+    font-weight: bold;
+}
+#manubar{
+    height: 80px;
+    background-color: #0A2640 ;
+}
+#manubar img{
+    margin-bottom: 20px;
+}
+#manu{
+    margin-right: 100px; 
+}
+.tamplate .btn1 {
+	color: #0A2640;
+	background-color: #65e4a3;
+	border-radius: 25px;
+	padding: 11px 32px;
+	border: none;
+	font-size: 15px;
+	font-weight: bold;
+}
+.tamplate .btn2 {
+	background-color: #0A2640;
+	color: white;
+	border-radius: 25px;
+	padding: 10px 32px;
+    margin-left: 10px;
+	border: 2px solid white;
+	font-size: 15px;
+	font-weight: bold;
+}
+.tamplate-text{
+    padding-top: 50px;
+    padding-top: 80px;
+}
+.pe-5 {
+	padding-right: 1rem !important;
+}
+
+
