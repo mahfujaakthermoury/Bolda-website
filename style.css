@@ -21,7 +21,7 @@ header{
     background-position: right;
 }
 nav .btn {
-	padding: 2px 30px;
+	padding: 5px 30px;
 	border-radius: 25px;
     font-weight: bold;
 }
@@ -29,37 +29,196 @@ nav .btn {
     height: 80px;
     background-color: #0A2640 ;
 }
-#manubar img{
-    margin-bottom: 20px;
+#manubar img {
+	margin-bottom: 20px;
+	margin-left: 80px;
 }
 #manu{
     margin-right: 100px; 
 }
-.tamplate .btn1 {
+.boldo-tamplate .btn1 {
 	color: #0A2640;
 	background-color: #65e4a3;
 	border-radius: 25px;
-	padding: 11px 32px;
+	padding: 12px 32px;
+    margin-top: 15px;
 	border: none;
 	font-size: 15px;
 	font-weight: bold;
 }
-.tamplate .btn2 {
+.boldo-tamplate .btn2 {
 	background-color: #0A2640;
 	color: white;
 	border-radius: 25px;
 	padding: 10px 32px;
+    margin-top: 15px;
     margin-left: 10px;
 	border: 2px solid white;
 	font-size: 15px;
 	font-weight: bold;
 }
-.tamplate-text{
-    padding-top: 50px;
+.boldo-tamplate-text{
     padding-top: 80px;
+}
+.boldo-tamplate-text h1{
+    color:white; 
+    font-weight: bold;
+    line-height: 60px;
+    font-size: 45px;
 }
 .pe-5 {
 	padding-right: 1rem !important;
 }
-
-
+.service .title{
+    font-size: 50px;
+}
+.service .btn {
+    text-decoration: none;
+    color:#081c30;
+    border-bottom:1px solid #0A2640;
+    font-weight: bold;
+    margin-left: -14px;
+    padding-bottom: 10px;
+}
+.connect-1 .py-5 {
+	padding-top: 11rem !important;
+	padding-bottom: 5rem !important;
+}
+.connect-title{
+    font-size:36px;
+    line-height: 60px;
+}
+.connect-1 .fs-1 {
+    color:#0A2640;
+	font-size: 1.7rem !important;
+}
+.connect-1 button {
+  padding: 16px 56px;
+  background: #0a2640;
+  color: #ffff;
+  border: none;
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 20px;
+}
+.connect-2 .list-item {
+    color: #000000;
+    padding: 1.5rem 1rem;
+    margin: 1rem 0;
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    font-size: 24px;
+  }
+.connect-2 .list-item:hover {
+    background-color: #0a2640;
+    color: white;
+    border-radius: 5px;
+  }
+  .blog-title{
+    font-size: 50px;
+  }
+.category{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    color: #0a2640;
+    text-decoration: none;
+  }
+  
+.date {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #777777;
+  }
+  
+.title {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #000;
+    text-decoration: none;
+  }
+  
+.profile {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #000;
+    text-decoration: none;
+  }
+  
+.blog .btn {
+    color: #0a2640;
+    padding: 16px 60px;
+    border: 2px solid #0a2640;
+    border-radius: 56px;
+    font-weight: bold;
+ }
+ /* .bg-holder {
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    will-change: transform, opacity, filter;
+    right: 0rem;
+    top: -16rem !important;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    background-repeat: no-repeat;
+    z-index: 0;
+  }  */
+  .email-bg{
+    background-color: #081c30;
+    background-image: url(/img/bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+  .email input {
+    padding: 16px 56px;
+    gap: 8px;
+    background: #fff;
+    border-radius: 240px;
+    border: 2px solid #ffffff;
+    color: #0a2640;
+    font-weight: bold;
+  }
+  .emailbtn {
+	color: #0A2640;
+	background-color: #65e4a3;
+	border-radius: 45px;
+	padding: 18px 51px;
+	border: none;
+	font-size: 16px;
+	font-weight: bold;
+}
+  .footer p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #777777;
+  }
+  
+  .footer h3 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+  }
+  
+  .footer a {
+    text-decoration: none;
+    color: #777777;
+  }
+  
+  .footer .hiring {
+    padding: 1px 14px;
+    margin-left: 5px;
+    gap: 10px;
+    background: #65e4a3;
+    color: #0a2640;
+    border-radius: 120px;
+    font-weight: bold;
+  }
