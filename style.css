@@ -15,7 +15,7 @@ div{
 img{
     max-width: 100%;
 }
-header{
+ header{
     background-image: url(/img/home-page/home\ bg.png);
     background-repeat: no-repeat;
     background-position: right;
@@ -171,16 +171,23 @@ nav .btn {
     background-repeat: no-repeat;
     z-index: 0;
   }  */
-  .email-bg{
+ /* .email-bg{
     background-color: #081c30;
     background-image: url(/img/bg.png);
     background-repeat: no-repeat;
     background-position: right;
+  }   */
+  .email h1{
+    font-size: 50px;
+    line-height: 70px;
+    padding-bottom: 40px;
+  }
+  .email .e-buttom{
+    
   }
   .email input {
-    padding: 16px 56px;
-    gap: 8px;
-    background: #fff;
+    padding:16px 56px;
+    background: #ffff;
     border-radius: 240px;
     border: 2px solid #ffffff;
     color: #0a2640;
