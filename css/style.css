@@ -15,26 +15,35 @@ div{
 img{
     max-width: 100%;
 }
+/* home page style */
  header{
-    background-image: url(/img/home-page/home\ bg.png);
-    background-repeat: no-repeat;
-    background-position: right;
+
 }
+/* navbar start */
 nav .btn {
-	padding: 5px 30px;
+	padding: 8px 38px;
 	border-radius: 25px;
     font-weight: bold;
 }
 #manubar{
     height: 80px;
     background-color: #0A2640 ;
+    position: fixed;
+    width: 100%;
 }
 #manubar img {
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 	margin-left: 80px;
 }
 #manu{
     margin-right: 100px; 
+}
+/* bolda-tamplate start */
+.boldo-tamplate{
+  background-image: url(/img/home-page/home\ bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  position: relative;
 }
 .boldo-tamplate .btn1 {
 	color: #0A2640;
@@ -69,6 +78,7 @@ nav .btn {
 .pe-5 {
 	padding-right: 1rem !important;
 }
+/* service start */
 .service .title{
     font-size: 50px;
 }
@@ -80,6 +90,7 @@ nav .btn {
     margin-left: -14px;
     padding-bottom: 10px;
 }
+/* connect-1 start */
 .connect-1 .py-5 {
 	padding-top: 11rem !important;
 	padding-bottom: 5rem !important;
@@ -101,6 +112,7 @@ nav .btn {
   font-weight: 700;
   font-size: 20px;
 }
+/* connect-2 start */
 .connect-2 .list-item {
     color: #000000;
     padding: 1.5rem 1rem;
@@ -115,7 +127,33 @@ nav .btn {
     color: white;
     border-radius: 5px;
   }
-  .blog-title{
+  /* enterprise-template start */
+  .enterprise-template{
+    background-color: #0A2640;
+  }
+  .enterprise-template .button-prev,
+  .enterprise-template .button-next
+  {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    padding-top: 13px;
+    margin-right: 25px;
+  }
+  .enterprise-template .slider{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 1.5em;
+  }
+  .enterprise-template .slider-content{
+    border-radius: 10px;
+  }
+  .enterprise-template .slider-content h4{
+    font-weight: 500;
+    line-height: 35px;
+  }
+  /* blog start */
+.blog-title{
     font-size: 50px;
   }
 .category{
@@ -124,31 +162,26 @@ nav .btn {
     line-height: 28px;
     color: #0a2640;
     text-decoration: none;
-  }
-  
+  } 
 .date {
     font-weight: 400;
     font-size: 16px;
     line-height: 28px;
     color: #777777;
-  }
-  
+  }  
 .title {
     font-weight: 400;
     font-size: 20px;
     line-height: 32px;
     color: #000;
-    text-decoration: none;
-  }
-  
+  }  
 .profile {
     font-weight: 400;
     font-size: 16px;
     line-height: 28px;
     color: #000;
     text-decoration: none;
-  }
-  
+  } 
 .blog .btn {
     color: #0a2640;
     padding: 16px 60px;
@@ -156,34 +189,11 @@ nav .btn {
     border-radius: 56px;
     font-weight: bold;
  }
- /* .bg-holder {
-    position: absolute;
-    width: 100%;
-    min-height: 100%;
-    background-size: cover;
-    background-position: center;
-    overflow: hidden;
-    will-change: transform, opacity, filter;
-    right: 0rem;
-    top: -16rem !important;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    background-repeat: no-repeat;
-    z-index: 0;
-  }  */
- /* .email-bg{
-    background-color: #081c30;
-    background-image: url(/img/bg.png);
-    background-repeat: no-repeat;
-    background-position: right;
-  }   */
+ /* email-section start */
   .email h1{
     font-size: 50px;
     line-height: 70px;
     padding-bottom: 40px;
-  }
-  .email .e-buttom{
-    
   }
   .email input {
     padding:16px 56px;
@@ -202,24 +212,22 @@ nav .btn {
 	font-size: 16px;
 	font-weight: bold;
 }
+/* footer start */
   .footer p {
     font-weight: 400;
     font-size: 16px;
     line-height: 28px;
     color: #777777;
-  }
-  
+  }  
   .footer h3 {
     font-weight: 700;
     font-size: 20px;
     line-height: 32px;
   }
-  
   .footer a {
     text-decoration: none;
     color: #777777;
-  }
-  
+  }  
   .footer .hiring {
     padding: 1px 14px;
     margin-left: 5px;
