@@ -15,14 +15,6 @@ div{
 img{
     max-width: 100%;
 }
-/* home page style */
- header{
-  background-image: url('img/home-page/home-bg.png');
-  background-repeat: no-repeat;
-  background-position: right;
-
-
-}
 /* navbar start */
 nav .btn {
 	padding: 8px 38px;
@@ -32,6 +24,8 @@ nav .btn {
 #manubar{
     height: 80px;
     background-color: #0A2640 ;
+    position: fixed;
+    width: 100%;
 }
 #manubar img {
 	margin-bottom: 10px;
@@ -42,7 +36,9 @@ nav .btn {
 }
 /* bolda-tamplate start */
 .boldo-tamplate{
-  background-color: #0A2640;
+  background: url(../img/home-page/banner.png) no-repeat center / cover;
+    padding: 70px 0;
+    position: relative;
 }
 .boldo-tamplate .btn1 {
 	color: #0A2640;
